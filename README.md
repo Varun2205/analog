@@ -1,4 +1,4 @@
-#XSCHEM PROJECT INITIALIZATION
+# XSCHEM PROJECT INITIALIZATION
 
 
 # DO NOT RUN THE COMMANDS BLINDLY
@@ -19,6 +19,7 @@ sed -i 's|sky130_tests/||g' *.sch
 
 
 
+# CIRCUITS
 
 | [![CS Resistor Load](ASSETS/CS_RES.png)](SINGLE_STAGE_AMP/CS_RES/) <br> **CS Resistor Load** | [![DIODE CONNECTED LOAD](ASSETS/DIODE_CONNECTED.png)](SINGLE_STAGE_AMP/CS_DIODE/) <br> **DIODE CONNECTED Amplifier** |
 | :---: | :---: |

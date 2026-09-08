@@ -57,20 +57,18 @@ C {code_shown.sym} 440 170 0 0 {name=s1 only_toplevel=false value="
   show xm1
 .endc
 "}
-C {/home/varun/.ciel/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} 240 100 0 0 {\{name=M1
-L=0.15
+C {/home/varun/.ciel/ciel/sky130/versions/1689ac3f2dc763876eaf967227c7dfe831b031ae/sky130A/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} 240 100 0 0 {name=M1
 W=1
-nf=1
+L=0.15
+nf=1 
 mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'"
-nrs="'0.29 / W'"
-sa=0
-sb=0
-sd=0
+ad="expr('int((@nf + 1)/2) * @W / @nf * 0.29')"
+pd="expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)')"
+as="expr('int((@nf + 2)/2) * @W / @nf * 0.29')"
+ps="expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')"
+nrd="expr('0.29 / @W ')" nrs="expr('0.29 / @W ')"
+sa=0 sb=0 sd=0
 model=nfet_01v8
-spiceprefix=X\}
+spiceprefix=X
 }
+C {/home/varun/.ciel/ciel/sky130/versions/1689ac3f2dc763876eaf967227c7dfe831b031ae/sky130A/libs.tech/ngspice/sky130.lib.spice} 340 320 0 0 {}

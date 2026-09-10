@@ -24,3 +24,13 @@ sed -i 's|sky130_tests/||g' *.sch
 | [![CS Resistor Load](ASSETS/CS_RES.png)](SINGLE_STAGE_AMP/CS_RES/) <br> **CS Resistor Load** | [![DIODE CONNECTED LOAD](ASSETS/DIODE_CONNECTED.png)](SINGLE_STAGE_AMP/CS_DIODE/) <br> **DIODE CONNECTED Amplifier** |
 | :---: | :---: |
 | [![Source Follower](ASSETS/SOURCE_FOLLOWER.png)](SINGLE_STAGE_AMP/SOURCE_FOLLOWER/) <br> **Source Follower** | [![Source Degeneration](ASSETS/Degenration.png)](SINGLE_STAGE_AMP/CS_DEGENERATION) <br> **SOURCE DEGENERATION** |
+
+## Reference Documentation Links
+
+* **Ciel:** [Ciel GitHub Repository](https://github.com/fossi-foundation/ciel)
+* **OpenLane:** [OpenLane Documentation Portal](https://openlane2.readthedocs.io/)
+* **OpenROAD:** [OpenROAD Documentation](https://openroad.readthedocs.io/)
+* **Xschem:** [Xschem Manual and Documentation](https://xschem.sourceforge.io/stefan/index.html)
+* **Ngspice:** [Ngspice User's Manual](https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml)
+* **Magic VLSI:** [Magic Layout Tool Documentation](http://opencircuitdesign.com/magic/)
+
